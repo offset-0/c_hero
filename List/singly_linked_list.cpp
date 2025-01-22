@@ -149,9 +149,9 @@ int main(int argc, const char** argv) {
     list.print();
     list.remove(0);
     list.print();
-    list.updata(2,60);
+    list.updata(2,100);
     list.print();
-    ListNode*temp=list.find(60);
+    ListNode*temp=list.find(100);
     cout<<temp<<endl;
     cout<<temp->data<<endl;
     cout<<list.get(2)->data<<endl;
